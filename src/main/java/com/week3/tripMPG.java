@@ -1,6 +1,9 @@
 package com.week3;
 
-import static input.InputUtils.*;
+//import static input.InputUtils.*;
+
+import static input.InputUtils.doubleInput;
+
 /**
  * Created by sz8386pr on 9/5/2017.
  */
