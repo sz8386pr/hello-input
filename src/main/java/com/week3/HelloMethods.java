@@ -12,6 +12,7 @@ public class HelloMethods {
     }
 
     private static String makeGreeting(String n) {
+
         return "Hello " + n + "!";
     }
 }
