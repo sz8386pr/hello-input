@@ -9,10 +9,9 @@ public class Main {
     
     public static void main(String[] args) {
         
-        /* Write your code here */
-        
-        String name = stringInput("Please enter your name?");
-        System.out.println("Hello, " + name + "!");
+        for (int x = 0 ; x < 10 ; x++) {
+            System.out.println(x);
+        }
         
     }
     
