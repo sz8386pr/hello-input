@@ -11,13 +11,17 @@ public class test {
 
         String filename = "name.txt";
 
-        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(filename));
+        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(filename, true));
 
-        fileWriter.write (name + "\n");
+        fileWriter.write (name + "\r\n");
         fileWriter.write("Java Programming");
         fileWriter.newLine ();
-        fileWriter.write("Today is Tuesday." + "\n");
+        fileWriter.write("Today is Tuesday." + "\r\n");
         fileWriter.close();
+
+
+
+
 
         System.out.println("Your name has been written to " + filename);
     }
